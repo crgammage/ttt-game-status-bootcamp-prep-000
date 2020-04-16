@@ -32,7 +32,7 @@ def won?(board)
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
   for WIN_COMBINATION.each
-    if position == "X" || "O" && position_2 == "X" || "O" && position_3 == "X" || "O"
+    if 
         return win_combination
       else
         false
