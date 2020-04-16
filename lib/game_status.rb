@@ -15,4 +15,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  for 
+  for each win_combination in WIN_COMBINATIONS
+    
