@@ -29,4 +29,5 @@ def full?(board)
 end
 
 def draw?(board)
-  board[]
+  if !won?(board) && !full?(board) == false
+    
