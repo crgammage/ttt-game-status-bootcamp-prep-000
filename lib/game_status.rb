@@ -31,7 +31,7 @@ def won?(board)
   position_6 = board[win_index_6]
   position_7 = board[win_index_7]
   position_8 = board[win_index_8]
-  for WIN_COMBINATION.each do |position|
+  for WIN_COMBINATION.each
     if position == "X" || "O" && position_2 == "X" || "O" && position_3 == "X" || "O"
         return win_combination
       else
