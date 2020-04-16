@@ -22,4 +22,8 @@ def won?(board)
 
 def full?(board)
   if board[index].all? == "X" || "O"
-    return 
+    return true
+  else
+    return false
+  end
+end
