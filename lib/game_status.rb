@@ -19,7 +19,7 @@ def won?(board)
     if board[win_combo[0]] == board[win_combo[1]] && board[win_combo[1]] == board[win_combo[2]]
       return win_combo
       end
-    else
-      return nil  
     end
+  else
+    return nil 
   end
