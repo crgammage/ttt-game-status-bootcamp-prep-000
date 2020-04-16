@@ -18,5 +18,4 @@ def won?(board)
   WIN_COMBINATIONS.detect do |win_combo|
     position_taken?(board, win_combo[0]) && board[win_combo[0]] == board[win_combo[1]] && board[win_combo[1]] == board[win_combo[2]]
     end
-    return nil
   end
