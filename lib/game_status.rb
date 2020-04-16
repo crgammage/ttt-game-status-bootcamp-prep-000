@@ -4,9 +4,9 @@ def position_taken?(board, index)
 end
 
 WIN_COMBINATIONS = [
-  [0, 1, 2]
-  [3, 4, 5]
-  [6, 7, 8]
+  top_row_win = [0, 1, 2]
+  mid_row_win = [3, 4, 5]
+  bottom_row_win = [6, 7, 8]
   [0, 4, 8]
   [2, 4, 6]
 ]
