@@ -19,3 +19,7 @@ def won?(board)
     position_taken?(board, win_combo[0]) && board[win_combo[0]] == board[win_combo[1]] && board[win_combo[1]] == board[win_combo[2]]
     end
   end
+
+def full?(board)
+  if board[index].all? == "X" || "O"
+    return 
