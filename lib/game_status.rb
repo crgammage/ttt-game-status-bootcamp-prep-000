@@ -27,3 +27,6 @@ def full?(board)
     return false
   end
 end
+
+def draw?(board)
+  board[]
