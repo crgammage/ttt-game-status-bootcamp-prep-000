@@ -15,4 +15,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if 
+  for 
