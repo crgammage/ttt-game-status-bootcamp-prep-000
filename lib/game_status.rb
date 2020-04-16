@@ -34,7 +34,7 @@ def won?(board)
   for WIN_COMBINATION.each
     i = 0, i <= 8
       if win_combination[i] == true
-        return win_combination
+        return position[i]
       else
         false
       end
