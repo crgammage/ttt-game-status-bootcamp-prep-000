@@ -20,6 +20,5 @@ def won?(board)
       return win_combo
       end
     end
-  else
-    return nil 
+    return nil
   end
